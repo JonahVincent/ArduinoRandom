@@ -6,5 +6,5 @@ void setup() {
 
 void loop() {
   int randomNumber = random(1,9); //generates random number between 1 and 9 and places it in a variable
-  Serial.println(randomNumber);
+  Serial.println(randomNumber); //this is just here to output the random number to make sure its working
 }
